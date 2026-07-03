@@ -1,6 +1,10 @@
 pipeline {
   agent any
 
+  tols {
+    jdk 'JDK17'
+  }
+
   stages {
     stage('Build') {
       steps {
