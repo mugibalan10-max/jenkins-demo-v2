@@ -1,7 +1,7 @@
 pipeline {
   agent any
 
-  tols {
+  tools {
     jdk 'JDK17'
   }
 
